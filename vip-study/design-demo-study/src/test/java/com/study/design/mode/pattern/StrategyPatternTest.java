@@ -1,4 +1,4 @@
-package com.study.design.mode.strategy;
+package com.study.design.mode.pattern;
 
 import org.junit.Test;
 
