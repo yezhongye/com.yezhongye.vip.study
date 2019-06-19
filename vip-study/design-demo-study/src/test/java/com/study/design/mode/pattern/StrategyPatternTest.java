@@ -2,7 +2,6 @@ package com.study.design.mode.pattern;
 
 import org.junit.Test;
 
-import com.study.design.mode.head.Duck;
 import com.study.design.mode.head.assignment.strategy.BowAndArrowBehavior;
 import com.study.design.mode.head.assignment.strategy.Character;
 import com.study.design.mode.head.assignment.strategy.King;
@@ -11,6 +10,7 @@ import com.study.design.mode.head.assignment.strategy.Knight;
 import com.study.design.mode.head.assignment.strategy.Queen;
 import com.study.design.mode.head.assignment.strategy.Troll;
 import com.study.design.mode.head.first.MallardDuck;
+import com.study.design.mode.head.strategy.Duck;
 
 public class StrategyPatternTest {
 

@@ -1,6 +1,6 @@
 package com.study.design.mode.head.first;
 
-import com.study.design.mode.head.Duck;
+import com.study.design.mode.head.strategy.Duck;
 
 public class RedheadDuck extends Duck{
 

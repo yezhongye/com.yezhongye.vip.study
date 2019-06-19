@@ -1,4 +1,4 @@
-package com.study.design.mode.head;
+package com.study.design.mode.head.strategy;
 
 import com.study.design.mode.head.inf.QuackBehavior;
 

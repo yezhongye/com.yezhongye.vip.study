@@ -1,8 +1,8 @@
 package com.study.design.mode.head.first;
 
-import com.study.design.mode.head.Duck;
-import com.study.design.mode.head.FlyWithWings;
-import com.study.design.mode.head.Quack;
+import com.study.design.mode.head.strategy.Duck;
+import com.study.design.mode.head.strategy.FlyWithWings;
+import com.study.design.mode.head.strategy.Quack;
 
 public class MallardDuck extends Duck{
 
