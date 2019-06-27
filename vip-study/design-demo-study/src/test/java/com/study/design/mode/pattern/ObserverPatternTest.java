@@ -7,6 +7,7 @@ import com.study.design.mode.head.observer.CurrentConditionsDisplayJDK;
 import com.study.design.mode.head.observer.ForecastDisplay;
 import com.study.design.mode.head.observer.ForecastDisplayJDK;
 import com.study.design.mode.head.observer.StatissicsDisplay;
+import com.study.design.mode.head.observer.SwingObserverExample;
 import com.study.design.mode.head.observer.WeatherData;
 import com.study.design.mode.head.observer.WeatherDataJDK;
 
@@ -36,5 +37,11 @@ public class ObserverPatternTest {
 		
 		weatherData.setMeasurements(80, 65, 30.4f);
 		weatherData.setMeasurements(82, 70, 29.2f);
+	}
+	
+	@Test
+	public void swingObserverExampleTest() {
+		SwingObserverExample example = new SwingObserverExample();
+		example.go();
 	}
 }
