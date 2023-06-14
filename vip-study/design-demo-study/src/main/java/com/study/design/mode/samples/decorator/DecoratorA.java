@@ -1,5 +1,8 @@
 package com.study.design.mode.samples.decorator;
 
+/**
+ * 装饰着模式
+ */
 public class DecoratorA extends Decorator {
 
 	public DecoratorA(Component component) {

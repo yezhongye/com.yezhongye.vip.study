@@ -1,5 +1,8 @@
 package com.study.design.mode.samples.decorator;
 
+/**
+ * 装饰着模式
+ */
 public class Decorator implements Component {
 
 	protected Component component;
